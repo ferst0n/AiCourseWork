@@ -197,6 +197,7 @@ class ThirdTask:
         except Exception as e:
             messagebox.showerror("Ошибка", f"Произошла ошибка при чтении файла: {str(e)}")
 
+
     def train_random_forest(self):
         self.train_classifier(RandomForestClassifier(), "Random Forest")
 
